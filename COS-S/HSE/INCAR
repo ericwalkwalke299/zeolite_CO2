@@ -1,0 +1,28 @@
+#system
+SYSTEM = SiO2
+LWAVE = .FALSE.
+LCHARG = .FALSE.
+LORBIT = 11
+NCORE = 4
+
+
+#electron, spin and chargedensity
+LREAL = auto
+PREC = acc
+ADDGRID = .TRUE.
+ICHARG = 2
+ISPIN = 2
+ENCUT = 400
+
+
+#scf
+EDIFF = 1E-5
+NELM = 100
+ALGO = normal
+ISMEAR = 0
+SIGMA = 0.05
+
+#HSE06 (single point)
+GGA = PE
+LHFCALC = .TRUE.
+HFSCREEN = 0.2
