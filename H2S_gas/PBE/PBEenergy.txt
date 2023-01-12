@@ -1,0 +1,1 @@
+  energy  without entropy=      -11.19613348  energy(sigma->0) =      -11.19613348
