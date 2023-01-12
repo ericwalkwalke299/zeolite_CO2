@@ -1,0 +1,31 @@
+#system
+SYSTEM = zeolite
+LWAVE = .FALSE.
+LCHARG = .FALSE.
+LORBIT = 11
+NCORE = 4
+
+
+#electron, spin and chargedensity
+LREAL = auto
+PREC = acc
+ADDGRID = .TRUE.
+ICHARG = 2
+ISPIN = 2
+ENCUT = 400
+
+
+#scf
+NELM = 100
+ALGO = normal
+ISMEAR = 0
+SIGMA = 0.05
+
+
+#dynamical matrix vtst
+ICHAIN=1
+IBRION=3
+POTIM=0
+EDIFF=1E-8
+EDIFFG=-1E-8
+NSW=4 # 1 atoms * 3 + 1 = 4
